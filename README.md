@@ -1,4 +1,3 @@
-```markdown
 # Análise de Sentimento com NLTK
 
 Este repositório contém um código Python para análise de sentimentos usando a biblioteca NLTK (Natural Language Toolkit).
@@ -24,6 +23,3 @@ O código realiza a análise de sentimentos em um conjunto de sentenças forneci
 Este código foi escrito por [Seu Nome/Autor](https://github.com/seu-usuario).
 
 Sinta-se à vontade para contribuir ou fazer sugestões de melhorias.
-
-```
-Este é um exemplo básico de como você pode criar um README para o seu repositório no GitHub, com base no código Python fornecido. Certifique-se de personalizá-lo com suas próprias informações, como seu nome de usuário no GitHub e quaisquer detalhes adicionais sobre o projeto.
