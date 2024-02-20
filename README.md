@@ -1,2 +1,29 @@
-# analise-de-sentimento-com-NLTK
-Análise de Sentimento com NLTK
+```markdown
+# Análise de Sentimento com NLTK
+
+Este repositório contém um código Python para análise de sentimentos usando a biblioteca NLTK (Natural Language Toolkit).
+
+## Descrição
+O código realiza a análise de sentimentos em um conjunto de sentenças fornecido em um arquivo de texto. Ele utiliza o VADER (Valence Aware Dictionary and sEntiment Reasoner), que é um lexicon e uma ferramenta de análise de sentimentos que é especialmente bem ajustada para análise de texto de mídia social.
+
+## Como Usar
+1. Certifique-se de ter o Python instalado em seu sistema.
+2. Instale a biblioteca NLTK usando `pip install nltk`.
+3. Execute o seguinte comando para baixar o lexicon VADER:
+    ```bash
+    nltk.download('vader_lexicon')
+    ```
+4. Execute o script Python fornecido, garantindo que você tem um arquivo de texto chamado `sentencas.txt` no diretório `inputs/`.
+5. O script imprimirá o score de sentimento das sentenças contidas no arquivo.
+
+## Requisitos
+- Python
+- NLTK
+
+## Autor
+Este código foi escrito por [Seu Nome/Autor](https://github.com/seu-usuario).
+
+Sinta-se à vontade para contribuir ou fazer sugestões de melhorias.
+
+```
+Este é um exemplo básico de como você pode criar um README para o seu repositório no GitHub, com base no código Python fornecido. Certifique-se de personalizá-lo com suas próprias informações, como seu nome de usuário no GitHub e quaisquer detalhes adicionais sobre o projeto.
