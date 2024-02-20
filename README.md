@@ -31,7 +31,7 @@ score_de_sentimento = sia.polarity_scores(texto)
 print(score_de_sentimento)
 {'neg': 0.032, 'neu': 0.904, 'pos': 0.064, 'compound': 0.3164}
 ```
-Print / Saída:
+Resultado / Print / Saída:
 ```ruby
 {'neg': 0.032, 'neu': 0.904, 'pos': 0.064, 'compound': 0.3164}
 ```
