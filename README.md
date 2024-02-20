@@ -17,11 +17,11 @@ O código realiza a análise de sentimentos em um conjunto de sentenças forneci
 
 ## Análise de Sentimento
 Para analisar o sentimento de uma sentença, utilizamos a classe SentimentIntensityAnalyzer que nos dá uma pontuação/score de intensidade de sentimento de determinadas sentenças.
-    ```ruby
-    from nltk.sentiment import SentimentIntensityAnalyzer
-    sia = SentimentIntensityAnalyzer()
-    ```
-
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
 ## Requisitos
 - Python
 - NLTK
