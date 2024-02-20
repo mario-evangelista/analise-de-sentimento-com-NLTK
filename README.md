@@ -15,6 +15,13 @@ O código realiza a análise de sentimentos em um conjunto de sentenças forneci
 4. Execute o script Python fornecido, garantindo que você tem um arquivo de texto chamado `sentencas.txt` no diretório `inputs/`.
 5. O script imprimirá o score de sentimento das sentenças contidas no arquivo.
 
+## Análise de Sentimento
+Para analisar o sentimento de uma sentença, utilizamos a classe SentimentIntensityAnalyzer que nos dá uma pontuação/score de intensidade de sentimento de determinadas sentenças.
+    ```bash
+    from nltk.sentiment import SentimentIntensityAnalyzer
+    sia = SentimentIntensityAnalyzer()
+    ```
+
 ## Requisitos
 - Python
 - NLTK
