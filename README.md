@@ -17,10 +17,19 @@ O código realiza a análise de sentimentos em um conjunto de sentenças forneci
 
 ## Análise de Sentimento
 Para analisar o sentimento de uma sentença, utilizamos a classe SentimentIntensityAnalyzer que nos dá uma pontuação/score de intensidade de sentimento de determinadas sentenças.
+Primeiro, vamos importar essa classe e instanciá-la:
 ```ruby
 from nltk.sentiment import SentimentIntensityAnalyzer
 sia = SentimentIntensityAnalyzer()
 ```
+A classe SentimentIntensityAnalyzer() possui o método polarity_scores() que gera as pontuações/scores. 
+Vejamos um exemplo:
+```ruby
+score_de_sentimento = sia.polarity_scores(texto)
+print(score_de_sentimento)
+{'neg': 0.032, 'neu': 0.904, 'pos': 0.064, 'compound': 0.3164}
+```
+
 ## Requisitos
 - Python
 - NLTK
