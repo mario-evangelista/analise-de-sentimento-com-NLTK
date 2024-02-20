@@ -29,6 +29,7 @@ score_de_sentimento = sia.polarity_scores(texto)
 print(score_de_sentimento)
 {'neg': 0.032, 'neu': 0.904, 'pos': 0.064, 'compound': 0.3164}
 ```
+As pontuações exibidas tem um valor de -1 a 1, do tipo float, para as chaves neg (sentimento negativo), neu (sentimento neutro), pos (sentimento positivo) e compound (sentimento dos três anteriores combinados). Esta pontuação é exatamente o cálculo da emocional. A pontuação composta de  0.3164 indicam um resultado acima de 0, portanto o conjunto de senteças denotam um sentimento positivo. 
 
 ## Requisitos
 - Python
