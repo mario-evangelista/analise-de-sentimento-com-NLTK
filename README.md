@@ -20,6 +20,6 @@ O código realiza a análise de sentimentos em um conjunto de sentenças forneci
 - NLTK
 
 ## Autor
-Este código foi escrito por [Seu Nome/Autor](https://github.com/seu-usuario).
+Este código foi escrito por [Mário Evangelista/Autor](https://github.com/mario-evangelista).
 
 Sinta-se à vontade para contribuir ou fazer sugestões de melhorias.
