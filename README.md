@@ -22,14 +22,15 @@ Primeiro, vamos importar essa classe e instanciá-la:
 from nltk.sentiment import SentimentIntensityAnalyzer
 sia = SentimentIntensityAnalyzer()
 ```
-A classe SentimentIntensityAnalyzer() possui o método polarity_scores() que gera as pontuações/scores. 
+A classe SentimentIntensityAnalyzer() possui o método polarity_scores() que gera as pontuações/scores.
+
 Vejamos um exemplo:
 ```ruby
 score_de_sentimento = sia.polarity_scores(texto)
 print(score_de_sentimento)
 {'neg': 0.032, 'neu': 0.904, 'pos': 0.064, 'compound': 0.3164}
 ```
-Print/Saída:
+Print / Saída:
 ```ruby
 {'neg': 0.032, 'neu': 0.904, 'pos': 0.064, 'compound': 0.3164}
 ```
